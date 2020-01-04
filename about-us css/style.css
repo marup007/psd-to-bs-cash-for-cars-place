@@ -1,0 +1,84 @@
+.footer-section {
+  margin: 0 px auto;
+  padding: 25px;
+  background: #6f5f5e;
+  color: #fff;
+}
+
+.logo{  
+  margin-top: 20px;
+}
+.ol{
+  background: transparent;
+
+}
+.li{
+  background: transparent;
+  color: red;
+  cursor: pointer;
+    margin-top: 10px;
+}
+section{
+  padding: 60px 0px;
+}
+.one{
+
+}
+.one h1{
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 0px;
+}
+.one p{
+
+  padding-bottom: 35px;
+
+  text-align: justify;
+}
+.parent{
+  position: relative;
+}
+.child{
+
+  position: absolute;
+
+  top: 5px;
+
+  left: -15px;
+}
+.child-two{
+
+  position: absolute;
+
+  top: 40px;
+
+  right: 50px;
+}
+.p{text-align: justify;}
+
+@media ( min-width: 320px) and (max-width: 768px){
+  
+body{
+    text-align: center;
+  }
+  .p{
+        padding: 20px 0px;
+  }
+  .child{
+        position: static;
+    width: 70%;
+  }
+  .child-two{
+        position: absolute;
+    width: 50%;
+    margin: 30px -15px;
+  }
+  .ol{
+        margin: 0px 25px;
+  }
+.body {
+    display: block;
+    width: 550px;
+    margin: auto;
+    border-bottom: 2px solid #15A4FA;
+}
+
